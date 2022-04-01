@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+}
+.info{
+    display: block;
+    padding-left: 10px;
+}
+img{
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    image-rendering: pixelated;
+    filter: grayscale()blur(2px);
+}
+hr{
+    border-top: 1px solid lightgray;
+}
