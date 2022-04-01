@@ -1,5 +1,13 @@
 .row{
     display: flex;
+    
+}
+.userParent{
+    background-color: white;
+    transition: .3s;
+}
+.userParent:hover{
+    background-color: whitesmoke;
 }
 .info{
     display: block;
@@ -14,4 +22,5 @@ img{
 }
 hr{
     border-top: 1px solid lightgray;
+    margin-bottom: 0;
 }

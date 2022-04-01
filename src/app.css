@@ -25,3 +25,10 @@ body{
     margin: 0;
     padding: 0;
 }
+svg{
+   fill: black; 
+   transition: .5s;
+}
+svg:hover{
+    fill: lightgray;
+}

@@ -5,7 +5,7 @@ export default function UserList({user}) {
         <div>
             {
                 user.map(u =>(
-                    <div key={u.id}>
+                    <div key={u.id} className="userParent">
                         <div className="row" >
                             <img src={u.avatar} alt="avatar"/>
                             <div className="info">
